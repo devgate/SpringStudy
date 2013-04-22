@@ -7,6 +7,6 @@
  */
 public interface Log {
 
-    public void write(String str);
+    void write(String str);
 
 }

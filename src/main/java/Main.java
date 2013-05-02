@@ -12,7 +12,7 @@ public class Main {
         Client client = new Client();
         Log log = new DefaultLog();
 
-        System.out.println("Call Default Log");
+        System.out.println("Call Default Log.");
         client.setLog(log);
         client.biz();
 

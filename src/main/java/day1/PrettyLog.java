@@ -1,3 +1,7 @@
+package day1;
+
+import org.springframework.stereotype.Component;
+
 /**
  * Created with IntelliJ IDEA.
  * User: dr.jun
@@ -5,6 +9,7 @@
  * Time: 오후 5:42
  * To change this template use File | Settings | File Templates.
  */
+@Component("prettyLog")
 public class PrettyLog implements Log {
 
     public void write(String str) {
